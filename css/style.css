@@ -1,0 +1,89 @@
+html, body {
+    margin: 5px;
+    padding: 0px 50px 20px 50px;
+    background-color: blanchedalmond; 
+    font-family:'Roboto', sans-serif;
+    font-size: 100%;
+    }
+   h1 {
+    font-size: 200%; 
+    color: black; 
+    text-align: center;
+    }
+   h2 {
+    font-size: 150%; 
+    color: rgb(90, 13, 121); 
+    padding-left: 15px;
+    text-align: center;
+    }
+   
+/*navbar*/
+nav{
+    margin: 0;
+    padding: 10px;
+    background-color: black;   
+}
+a{
+    display:inline;
+    text-decoration:none;
+    color: white ;
+    margin: 50px;
+    
+}
+
+  /*main*/
+  img {
+    width: 200px;
+    display: block;
+    margin-left:10% ;
+
+  }
+/*button*/
+input[type=submit],.button{
+    background-color:black;
+    padding: 14px 40px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 20px;
+    cursor: pointer;
+    position:relative;
+    left: 220px;
+    top: 20px;
+  }
+  /*contact form*/
+  input[type="text"],input[type="email"], textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+input[type=submit]:hover {
+    color:darkslateblue;  
+  }
+  /*Footer*/
+footer{font-size: x-small;
+    font-family: 'Roboto';
+    position: absolute;
+    right: 10%;
+    top: 90%;
+    margin: 10px
+} 
+footer{font-size: x-small;
+}
+.container{display: flexbox;
+}
+footer{font-size: x-small;
+}
+main p{width:100%;
+    text-align: justify;
+    
+}
+/*CV Downoald
